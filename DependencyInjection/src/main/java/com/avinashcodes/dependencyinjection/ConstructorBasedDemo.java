@@ -31,5 +31,5 @@ public class ConstructorBasedDemo {
     //  In constructor based dependency injection,
     //  we can ignore writing @Autowired
     //  because to create the bean for this class container will have to call the constructor
-    //  and it will automatically inject the dependencies.
+    //  ,and it will automatically inject the dependencies.
 }
