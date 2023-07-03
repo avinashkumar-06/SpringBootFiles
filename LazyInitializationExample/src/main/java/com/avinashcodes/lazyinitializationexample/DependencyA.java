@@ -11,7 +11,7 @@ public class DependencyA {
     DependencyB dependencyB;
 
 
-    public DependencyA(@Autowired DependencyB dependencyB){
+    public DependencyA(DependencyB dependencyB){
         System.out.println("Some initialization logics");
         this.dependencyB=dependencyB;
     }
