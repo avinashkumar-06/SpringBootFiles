@@ -17,6 +17,8 @@ public class AppLauncher {
 
             Arrays.stream(ctxt.getBeanDefinitionNames()).forEach(System.out::println);
 
+            ctxt.getBean(DemoClass.class).normalMethod();
+
 
         }
 

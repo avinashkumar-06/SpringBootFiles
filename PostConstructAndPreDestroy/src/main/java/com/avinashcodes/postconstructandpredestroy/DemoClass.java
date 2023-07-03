@@ -23,9 +23,13 @@ public class DemoClass {
     @PostConstruct
     public void initialize(){
         dependency.dependencyMethod();
+        System.out.println("post constructor called.");
     }
 
 
+    public void normalMethod(){
+        System.out.println("Normal method to be called  from context");
+    }
 
     // This method will be called automatically just before the application context is closed and
     //    bean is destroyed.
