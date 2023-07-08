@@ -34,10 +34,12 @@ public class DemoClass {
     // This method will be called automatically just before the application context is closed and
     //    bean is destroyed.
 
-    @PreDestroy
+    @PreDestroy //
     public void cleanup(){
         System.out.println("Cleaning up and closing all connections");
     }
+
+
 
 
 }
