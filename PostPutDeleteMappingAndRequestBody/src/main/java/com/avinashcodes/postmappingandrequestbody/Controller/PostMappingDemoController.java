@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class DemoController {
+public class PostMappingDemoController {
 
     @PostMapping("/student/create")
     public Student createStudent(@RequestBody Student student){
