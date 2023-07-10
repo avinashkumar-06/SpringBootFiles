@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2de89ba-9382-4029-95a2-5cc813071887" name="Changes" comment="" />
+    <list default="true" id="a2de89ba-9382-4029-95a2-5cc813071887" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../PostPutDeleteMappingAndRequestBody/src/main/java/com/avinashcodes/postmappingandrequestbody/Controller/PostMappingDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PostPutDeleteMappingAndRequestBody/src/main/java/com/avinashcodes/postmappingandrequestbody/Controller/PostMappingDemoController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/methodcoer/Coding Related/Practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,19 +57,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="PostPutDeleteMappingAndRequestBody" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="PostPutDeleteMappingAndRequestBody" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostMappingAndRequestBodyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="PostPutDeleteMappingAndRequestBody" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.avinashcodes.postmappingandrequestbody.PostMappingAndRequestBodyApplication" />
@@ -84,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688916127226</updated>
       <workItem from="1688916128605" duration="3972000" />
+      <workItem from="1688974110608" duration="25000" />
     </task>
     <servers />
   </component>

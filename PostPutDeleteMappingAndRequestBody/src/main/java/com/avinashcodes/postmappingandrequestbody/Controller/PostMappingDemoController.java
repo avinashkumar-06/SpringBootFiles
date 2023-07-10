@@ -3,6 +3,8 @@ package com.avinashcodes.postmappingandrequestbody.Controller;
 
 import com.avinashcodes.postmappingandrequestbody.bean.Course;
 import com.avinashcodes.postmappingandrequestbody.bean.Student;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class PostMappingDemoController {
 
     @PostMapping("/student/create")
-    public Student createStudent(@RequestBody Student student){
+    public ResponseEntity<Student> createStudent(@RequestBody Student student){
 
-        return student;
+        return new ResponseEntity<>(student, HttpStatus.CREATED);
     }
 
 
@@ -22,14 +24,14 @@ public class PostMappingDemoController {
     //   and then get individual class objects separately.
 
     @PostMapping("/student/create/both")
-    public StudentAndCourse createStudentCourse(@RequestBody StudentAndCourse object){
+    public ResponseEntity<StudentAndCourse> createStudentCourse(@RequestBody StudentAndCourse object){
 
         Student student = object.getStudent();
         Course course = object.getCourse();
 
         System.out.println(student);
         System.out.println(course);
-        return object;
+        return new ResponseEntity<>(object,HttpStatus.CREATED);
     }
 
 

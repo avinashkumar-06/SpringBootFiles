@@ -1,0 +1,31 @@
+Assignment 3: Difficult Level
+
+Topic: Spring Boot REST API with Request Param, Path Variable, and ResponseEntity
+
+Description:
+Create a Spring Boot REST API for managing a library. Implement the following features:
+
+Endpoint: /api/library/books
+
+HTTP Method: GET
+
+Request Parameters:
+
+author (optional): Filter books by author name.
+category (optional): Filter books by category.
+Response: Return a JSON array of book objects based on the specified filters.
+Example response:
+
+css
+Copy code
+[    {        "id": 1,        "title": "Book 1",        "author": "Author 1",        "category": "Category 1"    },    {        "id": 2,        "title": "Book 2",        "author": "Author 2",        "category": "Category 2"    },    ...]
+Implement additional endpoints to perform the following operations:
+
+GET /api/library/books/{id}: Retrieve a specific book by its ID.
+POST /api/library/books: Create a new book.
+PUT /api/library/books/{id}: Update an existing book.
+DELETE /api/library/books/{id}: Delete a book by its ID.
+Use ResponseEntity to handle different HTTP status codes and return appropriate responses.
+
+
+
